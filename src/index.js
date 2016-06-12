@@ -1,6 +1,6 @@
 import escapeHTML from 'escape-html';
 
-module.exports = (tag, attrs, text) => {
+module.exports = (tag = 'div', attrs = {}, text) => {
     let html = '<' + tag;
 
     Object.keys(attrs).forEach(name => {
