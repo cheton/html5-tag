@@ -1,7 +1,7 @@
 # html5-tag [![build status](https://travis-ci.org/cheton/html5-tag.svg?branch=master)](https://travis-ci.org/cheton/html5-tag) [![Coverage Status](https://coveralls.io/repos/cheton/html5-tag/badge.svg)](https://coveralls.io/r/cheton/html5-tag)
 [![NPM](https://nodei.co/npm/html5-tag.png?downloads=true&stars=true)](https://nodei.co/npm/html5-tag/)
 
-A simple utility for creating HTML tags.
+A simple utility for creating HTML5 tags.
 
 ## Installation
 
