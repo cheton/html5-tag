@@ -1,8 +1,8 @@
 {
-  "name": "node-html-tag",
-  "version": "0.2.1",
-  "description": "A simple utility for creating HTML tags.",
-  "homepage": "https://github.com/cheton/html-tag",
+  "name": "html5-tag",
+  "version": "0.3.0",
+  "description": "A simple utility for creating HTML5 tags.",
+  "homepage": "https://github.com/cheton/html5-tag",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run eslint && npm test && npm run build",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:cheton/html-tag.git"
+    "url": "git@github.com:cheton/html5-tag.git"
   },
   "keywords": [
     "attr",
@@ -24,6 +24,7 @@
     "elements",
     "generate",
     "html",
+    "html5",
     "tag"
   ],
   "dependencies": {
