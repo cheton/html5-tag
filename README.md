@@ -1,26 +1,30 @@
-# html-tag [![build status](https://travis-ci.org/cheton/html-tag.svg?branch=master)](https://travis-ci.org/cheton/html-tag) [![Coverage Status](https://coveralls.io/repos/cheton/html-tag/badge.svg)](https://coveralls.io/r/cheton/html-tag)
-[![NPM](https://nodei.co/npm/node-html-tag.png?downloads=true&stars=true)](https://nodei.co/npm/node-html-tag/)
+# html5-tag [![build status](https://travis-ci.org/cheton/html5-tag.svg?branch=master)](https://travis-ci.org/cheton/html5-tag) [![Coverage Status](https://coveralls.io/repos/cheton/html5-tag/badge.svg)](https://coveralls.io/r/cheton/html5-tag)
+[![NPM](https://nodei.co/npm/html5-tag.png?downloads=true&stars=true)](https://nodei.co/npm/html5-tag/)
 
 A simple utility for creating HTML tags.
 
 ## Installation
 
 ```bash
-npm install --save node-html-tag
+npm install --save html5-tag
 ```
 
 ## Usage
 ```js
-import tag from 'node-html-tag';
+import tag from 'html5-tag';
 
 tag('a', { href: 'http://example.com' }, 'Example');
 // → '<a href="http://example.com">Example</a>'
 
-tag('input', { name: 'name', value: 'Input your name...' });
-// → '<input name="name" value="Input your name..."/>'
+tag('input', { name: 'name', value: 'Input your name...', disabled: true });
+// → '<input name="name" value="Input your name..." disabled>'
 
 tag('div', { title: '\'"&<>' }, tag('i', { class: 'icon icon-folder' }, ''));
 // → '<div title="&#39;&quot;&amp;&lt;&gt;"><i class="icon icon-folder"></i></div>'
+
+// Defaults to 'div' if tag is not specified
+tag({ class: 'container' }, 'container text');
+// → '<div class="container">container text</div>'
 ```
 
 ## License
