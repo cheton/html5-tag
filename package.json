@@ -1,6 +1,6 @@
 {
   "name": "node-html-tag",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A simple utility for creating HTML tags.",
   "homepage": "https://github.com/cheton/html-tag",
   "main": "lib/index.js",
@@ -17,9 +17,14 @@
     "url": "git@github.com:cheton/html-tag.git"
   },
   "keywords": [
-    "redux",
-    "namespace",
-    "constants"
+    "attr",
+    "attribute",
+    "attributes",
+    "element",
+    "elements",
+    "generate",
+    "html",
+    "tag"
   ],
   "dependencies": {
     "escape-html": "^1.0.3"
