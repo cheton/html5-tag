@@ -13,6 +13,10 @@ npm install --save html5-tag
 ```js
 import tag from 'html5-tag';
 
+// No end tags for void elements (https://www.w3.org/TR/html5/syntax.html#void-elements)
+tag('br');
+// → '<br>'
+
 tag('a', { href: 'http://example.com' }, 'Example');
 // → '<a href="http://example.com">Example</a>'
 
