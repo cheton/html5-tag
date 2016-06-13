@@ -7,7 +7,7 @@
   "scripts": {
     "prepublish": "npm run eslint && npm test && npm run build",
     "build": "babel --out-dir ./lib ./src",
-    "eslint": "eslint src"
+    "eslint": "eslint src",
     "test": "./babel-tap --coverage test/*.js",
     "coveralls": "./babel-tap --coverage --coverage-report=text-lcov test/*.js | node_modules/.bin/coveralls"
   },
