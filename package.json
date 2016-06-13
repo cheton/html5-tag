@@ -1,6 +1,6 @@
 {
-  "name": "html-tagjs",
-  "version": "0.1.0",
+  "name": "node-html-tag",
+  "version": "0.2.0",
   "description": "A simple utility for creating HTML tags.",
   "homepage": "https://github.com/cheton/html-tag",
   "main": "lib/index.js",
