@@ -1,0 +1,20 @@
+{
+  "name": "html5-tag",
+  "description": "A simple utility for creating HTML5 tags.",
+  "authors": [
+    "Cheton Wu <cheton@gmail.com>"
+  ],
+  "homepage": "https://github.com/cheton/html5-tag",
+  "keywords": [
+    "attr",
+    "attribute",
+    "attributes",
+    "element",
+    "elements",
+    "generate",
+    "html",
+    "html5",
+    "tag"
+  ],
+  "license": "MIT"
+}
